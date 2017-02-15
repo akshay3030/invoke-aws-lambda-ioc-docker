@@ -77,7 +77,7 @@ docker build -t {image name} .
 # Remove commands
 docker rm :remove container
 
-docker mi :remove images
+docker rmi :remove images
 
 
 
