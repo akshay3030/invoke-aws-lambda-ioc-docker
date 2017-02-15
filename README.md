@@ -71,7 +71,7 @@ docker logs --details { psid }
 #Docker Name: Give a custom name to image
 docker run --name akshay { image name }
 
-#Build Image from local:
+#Build Image from local, run below at root of Dockerfile:
 docker build -t {image name} .
 
 # Remove commands
